@@ -1,4 +1,4 @@
-import 'package:app_travel/materimodulscreens/mystatelesswidget.dart';
+import 'package:app_travel/screens/landingpage.dart';
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 
@@ -17,7 +17,7 @@ class _SplashscreenState extends State<Splashscreen> {
 //menunda 3 detik
     Future.delayed(const Duration(seconds: 3), () {
       Navigator.pushReplacement(context,
-          MaterialPageRoute(builder: (context) => const Mystatelesswidget()));
+          MaterialPageRoute(builder: (context) => const Landingpage()));
     });
   }
 
