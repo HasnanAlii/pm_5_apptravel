@@ -23,7 +23,7 @@ class _HomeScreenState extends State<HomeScreen> {
       .where((element) => element.category == 'popular')
       .toList();
   List<TravelDestination> rekomendasi = listDestination
-      .where((element) => element.category == 'popular')
+      .where((element) => element.category == 'rekomendasi')
       .toList();
 
   @override
