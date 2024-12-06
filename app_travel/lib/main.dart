@@ -6,6 +6,7 @@
 // }
 
 // import 'package:app_travel/materimodulscreens/formscreen6.dart';
+import 'package:app_travel/materimodulscreens/makananapi9.dart';
 import 'package:app_travel/screens/homescreen.dart';
 // import 'package:app_travel/screens/splashscreen.dart';
 // import 'package:app_travel/screens/splashscreen.dart';
@@ -21,8 +22,8 @@ class TravelApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-     debugShowCheckedModeBanner: false,
-     home: HomeScreen(),
-     );
+      debugShowCheckedModeBanner: false,
+      home: Makananapi9(),
+    );
   }
 }
